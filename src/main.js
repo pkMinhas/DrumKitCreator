@@ -10,6 +10,9 @@ if (require('electron-squirrel-startup')) {
   app.quit();
 }
 
+//auto updater
+require('update-electron-app')()
+
 let mainWindow
 const createWindow = () => {
   // Create the browser window.
@@ -28,7 +31,7 @@ const createWindow = () => {
   mainWindow.loadFile(path.join(__dirname, 'index.html'));
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools();
+  // mainWindow.webContents.openDevTools();
 
   //handle links which open in _blank
   mainWindow.webContents.setWindowOpenHandler(function ({url}) {
