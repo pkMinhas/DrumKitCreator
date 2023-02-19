@@ -128,12 +128,13 @@ let renderADGAsync = async (inputDir, outputDir, progressCallback) => {
                         //by convention, the mpc expansions have filename with extension .WAV
                         let samplePath = path.join(mpcExpansionDir, sampleName + ".WAV")
                         let destPath = path.join(sampleOutputDir, sampleName + ".WAV")
-                        await fs.promises.cp(samplePath, destPath)
+                        fs.copyFileSync(samplePath, destPath)
                         samplePathArr.push(destPath)
                     })
                 })
 
                 //render the ADG file
+                // console.log(samplePathArr)
                 renderADGXML(samplePathArr, async (xml) => {
                     await fs.promises.writeFile(adgPath, xml)
                     progressCallback(`${adgPath.split(path.sep).pop()} created`)
