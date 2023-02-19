@@ -1,17 +1,17 @@
 
 //load output dir
 window.api.getOutputDirectory().then(res => {
-    document.getElementById("outputDir").innerText = res
+    document.getElementById("outputDir").innerText =  res
 })
 
 
-document.getElementById('ipDir').addEventListener('click', async (evt) => {
+document.getElementById('selectExpansionDir').addEventListener('click', async (evt) => {
     evt.preventDefault()
     res = await window.api.selectInputDirectory()
-    document.getElementById("inputDir").innerText = res
+    document.getElementById("expansionDir").innerHTML = res
 })
 
-document.getElementById('opDir').addEventListener('click', async (evt) => {
+document.getElementById('selectOutDir').addEventListener('click', async (evt) => {
     evt.preventDefault()
     res = await window.api.selectOutputDirectory()
     document.getElementById("outputDir").innerText = res
@@ -20,6 +20,8 @@ document.getElementById('opDir').addEventListener('click', async (evt) => {
 
 document.getElementById('process').addEventListener('click', async (evt) => {
     evt.preventDefault()
+    //clear logs
+    document.getElementById("logs").innerText = ""
     window.api.startProcessing()
 })
 

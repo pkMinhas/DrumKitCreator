@@ -5,23 +5,75 @@
 <head>
   <meta charset="UTF-8" />
   <title>Hello World!</title>
-  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css" />
 </head>
 
 <body>
-  <h1>💖 Hello World!</h1>
-  <p>Welcome to your Electron application.</p>
-  <input type="file" id="ipDir" />
-  <div id="inputDir"></div>
-
-  <input type="file" id="opDir" />
-  <div id="outputDir"></div>
-  <button id="process">Process</button>
-
-    <div id="logs">
-      Logs:
+  <div class="container">
+    <div class="text-center mb-4">
+      <p class="h1">🥁 Drum Kit Creator 🥁</p>
+      <small class="text-muted">Convert your MPC drum expansions to Ableton Drum Rack kits</small>
     </div>
-  
+
+    <div class="row mt-4 mb-4">
+      <div class="col">
+        <b>Expansion Directory</b>
+      </div>
+      <div class="col">
+        <span id="expansionDir"></span>
+      </div>
+      <div class="col align-self-end">
+        <button type="button" class="btn btn-primary" id="selectExpansionDir">Select</button>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col">
+        <b>Output Directory</b>
+      </div>
+      <div class="col">
+        <div id="outputDir"></div>
+      </div>
+      <div class="col">
+        <button type="button" class="btn btn-primary" id="selectOutDir">Select</button>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center">
+      <button type="button" class="btn btn-success" id="process">Process</button>
+    </div>
+    
+    <div class="m-4 border border-primary">
+      <div class="d-flex justify-content-center">
+        <small>Like this app? Please spread the word & share it with your community.</small>
+      </div>
+      <hr>
+      <div class="d-flex justify-content-center">
+        <small>
+          Create music videos quickly & easily with BeatVid:
+          <a href="https://apps.apple.com/us/app/beatvid/id1633217602"  target="_blank">BeatVid for Mac</a>
+        </small>
+      </div>
+      <div class="d-flex justify-content-center">
+        <small>
+          Download my beats:
+          <a href="https://bigsmilezbeats.com" target="_blank">https://bigsmilezbeats.com</a>
+        </small>
+      </div>
+      <div class="d-flex justify-content-center">
+        <small>
+          Need help?
+          <a href="mailto:preet@marchingbytes.com?subject=DrumKitCreator">Email Me</a>
+        </small>
+      </div>
+    </div>
+
+    <div class="m-2 border border-secondary-subtle" style="max-height: 200px;scroll-behavior: auto; overflow: scroll;">
+      <div><b>Logs:</b></div>
+      <small id="logs" class="text-muted" >
+      </small>
+    </div>
+
+  </div>
 </body>
 
 <script type="text/javascript" src="./ui.js">

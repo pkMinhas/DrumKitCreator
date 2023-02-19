@@ -30,6 +30,12 @@ const createWindow = () => {
   // Open the DevTools.
   mainWindow.webContents.openDevTools();
 
+  //handle links which open in _blank
+  mainWindow.webContents.setWindowOpenHandler(function ({url}) {
+    require('electron').shell.openExternal(url);
+    return { action: 'deny' };
+  });
+
   //setup window level vars
   inputDirectory = ""
   outputDirectory = store.get("outputDirectory") || ""
@@ -120,4 +126,3 @@ ipcMain.handle("startProcessing", async () => {
     return true
   }
 })
-
