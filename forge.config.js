@@ -27,7 +27,8 @@ module.exports = {
           owner: 'pkMinhas',
           name: 'DrumKitCreator'
         },
-        prerelease: false
+        prerelease: false,
+        draft: true,
       }
     }
   ]

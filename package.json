@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "description": "Convert MPC Drum Kit Expansions to Ableton Drum Racks",
   "main": "src/main.js",
+  "repository": {
+    "url": "https://github.com/pkMinhas/DrumKitCreator"
+  },
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
