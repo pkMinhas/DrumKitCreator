@@ -11,7 +11,7 @@ if (require('electron-squirrel-startup')) {
 }
 
 //auto updater
-require('update-electron-app')()
+// require('update-electron-app')()
 
 let mainWindow
 const createWindow = () => {

@@ -7,8 +7,11 @@ module.exports = {
       config: {},
     },
     {
-      name: '@electron-forge/maker-zip',
+      name: '@electron-forge/maker-dmg',
       platforms: ['darwin'],
+      config: {
+        name: "Drum Kit Creator"
+      }
     },
     {
       name: '@electron-forge/maker-deb',
