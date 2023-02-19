@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Ableton MajorVersion="5" MinorVersion="10.0_370" SchemaChangeCount="2" Creator="Ableton Live 10.0.1" Revision="24db47c40277255afc4229905992e7654e23ec0f">
+	<GroupDevicePreset>
+		<OverwriteProtectionNumber Value="2560" />
+		<Device>
+			<DrumGroupDevice Id="0">
+				<LomId Value="0" />
+				<LomIdView Value="0" />
+				<IsExpanded Value="true" />
+				<On>
+					<LomId Value="0" />
+					<Manual Value="true" />
+					<AutomationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</AutomationTarget>
+					<MidiCCOnOffThresholds>
+						<Min Value="64" />
+						<Max Value="127" />
+					</MidiCCOnOffThresholds>
+				</On>
+				<ParametersListWrapper LomId="0" />
+				<LastSelectedTimeableIndex Value="0" />
+				<LastSelectedClipEnvelopeIndex Value="0" />
+				<LastPresetRef>
+					<Value>
+						<AbletonDefaultPresetRef Id="0">
+							<FileRef>
+								<HasRelativePath Value="true" />
+								<RelativePathType Value="5" />
+								<RelativePath>
+									<RelativePathElement Id="3" Dir="Devices" />
+									<RelativePathElement Id="4" Dir="Instruments" />
+									<RelativePathElement Id="5" Dir="Drum Rack" />
+								</RelativePath>
+								<Name Value="" />
+								<Type Value="2" />
+								<Data>
+								</Data>
+								<RefersToFolder Value="true" />
+								<SearchHint>
+									<PathHint />
+									<FileSize Value="0" />
+									<Crc Value="0" />
+									<MaxCrcSize Value="0" />
+									<HasExtendedInfo Value="false" />
+								</SearchHint>
+								<LivePackName Value="Core Library" />
+								<LivePackId Value="www.ableton.com/0" />
+							</FileRef>
+							<DeviceId Name="DrumGroupDevice" />
+						</AbletonDefaultPresetRef>
+					</Value>
+				</LastPresetRef>
+				<LockedScripts />
+				<IsFolded Value="false" />
+				<ShouldShowPresetName Value="true" />
+				<UserName Value="" />
+				<Annotation Value="" />
+				<SourceContext>
+					<Value />
+				</SourceContext>
+				<OverwriteProtectionNumber Value="2560" />
+				<Branches />
+				<IsBranchesListVisible Value="false" />
+				<IsReturnBranchesListVisible Value="false" />
+				<IsRangesEditorVisible Value="false" />
+				<AreDevicesVisible Value="false" />
+				<MacroControls.0>
+					<LomId Value="0" />
+					<Manual Value="0" />
+					<MidiControllerRange>
+						<Min Value="0" />
+						<Max Value="127" />
+					</MidiControllerRange>
+					<AutomationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</AutomationTarget>
+					<ModulationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</ModulationTarget>
+				</MacroControls.0>
+				<MacroControls.1>
+					<LomId Value="0" />
+					<Manual Value="0" />
+					<MidiControllerRange>
+						<Min Value="0" />
+						<Max Value="127" />
+					</MidiControllerRange>
+					<AutomationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</AutomationTarget>
+					<ModulationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</ModulationTarget>
+				</MacroControls.1>
+				<MacroControls.2>
+					<LomId Value="0" />
+					<Manual Value="0" />
+					<MidiControllerRange>
+						<Min Value="0" />
+						<Max Value="127" />
+					</MidiControllerRange>
+					<AutomationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</AutomationTarget>
+					<ModulationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</ModulationTarget>
+				</MacroControls.2>
+				<MacroControls.3>
+					<LomId Value="0" />
+					<Manual Value="0" />
+					<MidiControllerRange>
+						<Min Value="0" />
+						<Max Value="127" />
+					</MidiControllerRange>
+					<AutomationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</AutomationTarget>
+					<ModulationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</ModulationTarget>
+				</MacroControls.3>
+				<MacroControls.4>
+					<LomId Value="0" />
+					<Manual Value="0" />
+					<MidiControllerRange>
+						<Min Value="0" />
+						<Max Value="127" />
+					</MidiControllerRange>
+					<AutomationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</AutomationTarget>
+					<ModulationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</ModulationTarget>
+				</MacroControls.4>
+				<MacroControls.5>
+					<LomId Value="0" />
+					<Manual Value="0" />
+					<MidiControllerRange>
+						<Min Value="0" />
+						<Max Value="127" />
+					</MidiControllerRange>
+					<AutomationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</AutomationTarget>
+					<ModulationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</ModulationTarget>
+				</MacroControls.5>
+				<MacroControls.6>
+					<LomId Value="0" />
+					<Manual Value="0" />
+					<MidiControllerRange>
+						<Min Value="0" />
+						<Max Value="127" />
+					</MidiControllerRange>
+					<AutomationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</AutomationTarget>
+					<ModulationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</ModulationTarget>
+				</MacroControls.6>
+				<MacroControls.7>
+					<LomId Value="0" />
+					<Manual Value="0" />
+					<MidiControllerRange>
+						<Min Value="0" />
+						<Max Value="127" />
+					</MidiControllerRange>
+					<AutomationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</AutomationTarget>
+					<ModulationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</ModulationTarget>
+				</MacroControls.7>
+				<MacroDisplayNames.0 Value="Macro 1" />
+				<MacroDisplayNames.1 Value="Macro 2" />
+				<MacroDisplayNames.2 Value="Macro 3" />
+				<MacroDisplayNames.3 Value="Macro 4" />
+				<MacroDisplayNames.4 Value="Macro 5" />
+				<MacroDisplayNames.5 Value="Macro 6" />
+				<MacroDisplayNames.6 Value="Macro 7" />
+				<MacroDisplayNames.7 Value="Macro 8" />
+				<MacroDefaults.0 Value="0" />
+				<MacroDefaults.1 Value="0" />
+				<MacroDefaults.2 Value="0" />
+				<MacroDefaults.3 Value="0" />
+				<MacroDefaults.4 Value="0" />
+				<MacroDefaults.5 Value="0" />
+				<MacroDefaults.6 Value="0" />
+				<MacroDefaults.7 Value="0" />
+				<MacroAnnotations.0 Value="" />
+				<MacroAnnotations.1 Value="" />
+				<MacroAnnotations.2 Value="" />
+				<MacroAnnotations.3 Value="" />
+				<MacroAnnotations.4 Value="" />
+				<MacroAnnotations.5 Value="" />
+				<MacroAnnotations.6 Value="" />
+				<MacroAnnotations.7 Value="" />
+				<ForceDisplayGenericValue.0 Value="false" />
+				<ForceDisplayGenericValue.1 Value="false" />
+				<ForceDisplayGenericValue.2 Value="false" />
+				<ForceDisplayGenericValue.3 Value="false" />
+				<ForceDisplayGenericValue.4 Value="false" />
+				<ForceDisplayGenericValue.5 Value="false" />
+				<ForceDisplayGenericValue.6 Value="false" />
+				<ForceDisplayGenericValue.7 Value="false" />
+				<AreMacroControlsVisible Value="false" />
+				<IsAutoSelectEnabled Value="true" />
+				<ChainSelector>
+					<LomId Value="0" />
+					<Manual Value="0" />
+					<MidiControllerRange>
+						<Min Value="0" />
+						<Max Value="127" />
+					</MidiControllerRange>
+					<AutomationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</AutomationTarget>
+					<ModulationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</ModulationTarget>
+				</ChainSelector>
+				<ChainSelectorRelativePosition Value="-1073741824" />
+				<ViewsToRestoreWhenUnfolding Value="0" />
+				<ReturnBranches />
+				<BranchesSplitterProportion Value="0.5" />
+				<ShowBranchesInSessionMixer Value="false" />
+				<MacroColorIndex.0 Value="0" />
+				<MacroColorIndex.1 Value="0" />
+				<MacroColorIndex.2 Value="0" />
+				<MacroColorIndex.3 Value="0" />
+				<MacroColorIndex.4 Value="0" />
+				<MacroColorIndex.5 Value="0" />
+				<MacroColorIndex.6 Value="0" />
+				<MacroColorIndex.7 Value="0" />
+				<LockId Value="0" />
+				<LockSeal Value="0" />
+				<ChainsListWrapper LomId="0" />
+				<ReturnChainsListWrapper LomId="0" />
+				<ChainSelectorFilterMidiCtrl Value="false" />
+				<RangeTypeIndex Value="1" />
+				<ShowsZonesInsteadOfNoteNames Value="true" />
+				<IsMidiSectionVisible Value="false" />
+				<AreSendsVisible Value="false" />
+				<ArePadsVisible Value="true" />
+				<PadScrollPosition Value="19" />
+				<DrumPadsListWrapper LomId="0" />
+				<VisibleDrumPadsListWrapper LomId="0" />
+			</DrumGroupDevice>
+		</Device>
+		<PresetRef>
+			<AbletonDefaultPresetRef Id="0">
+				<FileRef>
+					<HasRelativePath Value="true" />
+					<RelativePathType Value="5" />
+					<RelativePath>
+						<RelativePathElement Id="3" Dir="Devices" />
+						<RelativePathElement Id="4" Dir="Instruments" />
+						<RelativePathElement Id="5" Dir="Drum Rack" />
+					</RelativePath>
+					<Name Value="" />
+					<Type Value="2" />
+					<Data>
+					</Data>
+					<RefersToFolder Value="true" />
+					<SearchHint>
+						<PathHint />
+						<FileSize Value="0" />
+						<Crc Value="0" />
+						<MaxCrcSize Value="0" />
+						<HasExtendedInfo Value="false" />
+					</SearchHint>
+					<LivePackName Value="Core Library" />
+					<LivePackId Value="www.ableton.com/0" />
+				</FileRef>
+				<DeviceId Name="DrumGroupDevice" />
+			</AbletonDefaultPresetRef>
+		</PresetRef>
+		<BranchPresets>
